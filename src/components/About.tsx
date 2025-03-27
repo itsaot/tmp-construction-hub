@@ -43,12 +43,12 @@ const About = () => {
               <div className="absolute right-4 -bottom-8 bg-white p-5 rounded-lg shadow-lg glass-panel max-w-xs">
                 <div className="flex items-center gap-3">
                   <img 
-                    src="https://randomuser.me/api/portraits/men/32.jpg" 
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTFkTfPnJySnZCXOymlo4dn43dCMbcSzKEWQ&s" 
                     alt="CEO" 
                     className="w-14 h-14 rounded-full object-cover border-2 border-construction-yellow"
                   />
                   <div>
-                    <p className="font-bold text-construction-dark">@thlolo_mohlala</p>
+                    <p className="font-bold text-construction-dark">Thlolo Mohlala</p>
                     <p className="text-construction-gray text-sm">CEO & Founder</p>
                   </div>
                 </div>
