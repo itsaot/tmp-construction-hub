@@ -13,19 +13,19 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <RevealOnScroll delay={100}>
-              <div className="inline-block bg-construction-dark py-1 px-3 rounded-full">
+              <div className="inline-block bg-red-600 py-1 px-3 rounded-full">
                 <p className="text-white text-sm font-medium">CIBD 4CE/3GB/3ME</p>
               </div>
             </RevealOnScroll>
             
             <RevealOnScroll delay={300}>
-              <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold leading-tight text-construction-dark">
-                Building a <span className="text-construction-yellow">Stronger</span> Future Together
+              <h1 className="text-5xl md:text-6xl lg:text-7xl font-display font-bold leading-tight text-black">
+                Building a <span className="text-red-600">Stronger</span> Future Together
               </h1>
             </RevealOnScroll>
             
             <RevealOnScroll delay={500}>
-              <p className="text-xl text-construction-gray max-w-lg">
+              <p className="text-xl text-gray-800 max-w-lg">
                 Expert construction services, plant hire, and wholesale supplies for all your project needs. Excellence in every brick, every time.
               </p>
             </RevealOnScroll>
@@ -53,7 +53,7 @@ const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                 <div className="absolute bottom-8 left-8 right-8 text-white">
                   <div className="flex items-center gap-3 mb-2">
-                    <div className="h-1 w-10 bg-construction-yellow"></div>
+                    <div className="h-1 w-10 bg-red-600"></div>
                     <span className="text-sm font-medium">EXCELLENCE IN CONSTRUCTION</span>
                   </div>
                   <p className="text-2xl font-bold">4+ Years of Industry Experience</p>
@@ -63,12 +63,12 @@ const Hero = () => {
               <div className="absolute -top-6 -right-6 bg-white rounded-lg p-5 shadow-lg">
                 <div className="grid grid-cols-2 gap-4">
                   <div className="text-center">
-                    <p className="text-3xl font-bold text-construction-dark">20+</p>
-                    <p className="text-sm text-construction-gray">Projects</p>
+                    <p className="text-3xl font-bold text-black">20+</p>
+                    <p className="text-sm text-gray-600">Projects</p>
                   </div>
                   <div className="text-center">
-                    <p className="text-3xl font-bold text-construction-dark">98%</p>
-                    <p className="text-sm text-construction-gray">Satisfaction</p>
+                    <p className="text-3xl font-bold text-black">98%</p>
+                    <p className="text-sm text-gray-600">Satisfaction</p>
                   </div>
                 </div>
               </div>
@@ -80,7 +80,7 @@ const Hero = () => {
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <a 
           href="#services" 
-          className="flex flex-col items-center text-construction-dark"
+          className="flex flex-col items-center text-black"
           aria-label="Scroll down to services"
         >
           <span className="text-sm mb-2">Scroll Down</span>

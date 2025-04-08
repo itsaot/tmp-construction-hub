@@ -70,15 +70,15 @@
 
 @layer components {
   .btn-primary {
-    @apply bg-construction-yellow text-construction-dark font-medium px-6 py-3 rounded-md transition-all duration-300 hover:bg-opacity-90 hover:translate-y-[-2px] active:translate-y-[0px] shadow-md;
+    @apply bg-red-600 text-white font-medium px-6 py-3 rounded-md transition-all duration-300 hover:bg-red-700 hover:translate-y-[-2px] active:translate-y-[0px] shadow-md;
   }
 
   .btn-secondary {
-    @apply bg-construction-dark text-white font-medium px-6 py-3 rounded-md transition-all duration-300 hover:bg-opacity-90 hover:translate-y-[-2px] active:translate-y-[0px] shadow-md;
+    @apply bg-black text-white font-medium px-6 py-3 rounded-md transition-all duration-300 hover:bg-gray-900 hover:translate-y-[-2px] active:translate-y-[0px] shadow-md;
   }
 
   .btn-outline {
-    @apply border border-construction-dark text-construction-dark bg-transparent font-medium px-6 py-3 rounded-md transition-all duration-300 hover:bg-construction-dark hover:text-white hover:translate-y-[-2px] active:translate-y-[0px];
+    @apply border border-black text-black bg-transparent font-medium px-6 py-3 rounded-md transition-all duration-300 hover:bg-black hover:text-white hover:translate-y-[-2px] active:translate-y-[0px];
   }
 
   .section-container {
@@ -86,11 +86,11 @@
   }
 
   .section-title {
-    @apply text-4xl md:text-5xl font-display font-bold mb-6 text-construction-dark;
+    @apply text-4xl md:text-5xl font-display font-bold mb-6 text-black;
   }
 
   .section-subtitle {
-    @apply text-xl text-construction-gray mb-16 max-w-3xl;
+    @apply text-xl text-gray-700 mb-16 max-w-3xl;
   }
 
   .card-hover {

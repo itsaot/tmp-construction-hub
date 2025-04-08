@@ -64,11 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				construction: {
-					yellow: '#F6D645',
-					dark: '#1A1A1A',
-					light: '#F5F5F5',
-					gray: '#808080',
-					accent: '#F2994A'
+					yellow: '#ea384c', // Changed to red
+					dark: '#000000', // Changed to black
+					light: '#FFFFFF', // Changed to white
+					gray: '#808080', 
+					accent: '#ea384c' // Changed to red
 				}
 			},
 			borderRadius: {
